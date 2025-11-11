@@ -19,7 +19,7 @@ module.exports = (config, logger) => {
     config.loginUrl = 'https://login.salesforce.com';
   }
   if (typeof config.apiVersion === 'undefined' || config.apiVersion === null) {
-    config.apiVersion = '48.0';
+    config.apiVersion = '64.0';
   }
   if (typeof config.output === 'undefined' || config.output === null) {
     config.output = '.';
